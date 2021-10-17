@@ -28,10 +28,10 @@ public class MiniMarket {
 		if(type.equalsIgnoreCase("TI")) {
 			throw new YoungerException();
 		}
-		else if(penultimateNumber%2==0 && day%2>0 ) {
+		else if(penultimateNumber%2==0 && day%2==0 ) {
 			throw new NotCorrespondingDayException(penultimateNumber,day);
 		}
-		else if(penultimateNumber%2>0 && day%2==0) {
+		else if(penultimateNumber%2>0 && day%2>0) {
 
 			throw new NotCorrespondingDayException(penultimateNumber,day);
 		}

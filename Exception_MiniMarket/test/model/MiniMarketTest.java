@@ -24,7 +24,7 @@ class MiniMarketTest {
 
 		int day=LocalDate.now().getDayOfMonth();
 		String typeId="CC";
-		String id="125"+day+"3";
+		String id="125"+(day+1)+"3";
 		
 		try {
 			market.addClient(typeId, id, day);
@@ -41,7 +41,7 @@ class MiniMarketTest {
 		setupScene1();
 		int day=LocalDate.now().getDayOfMonth();
 		String typeId="TI";
-		String id="125"+day+"3";
+		String id="125"+(day+1)+"3";
 		
 		try {
 			market.addClient(typeId, id, day);
@@ -59,7 +59,7 @@ class MiniMarketTest {
 		setupScene1();
 		int day=LocalDate.now().getDayOfMonth();
 		String typeId="CC";
-		String id="125"+(day+1)+"3";
+		String id="125"+day+"3";
 		
 		try {
 			market.addClient(typeId, id, day);
