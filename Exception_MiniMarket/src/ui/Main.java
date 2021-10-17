@@ -9,7 +9,7 @@ import model.MiniMarket;
 import java.time.LocalDate;
 
 public class Main {
-	public static Scanner sc=new Scanner(System.in);
+	private static Scanner sc=new Scanner(System.in);
 	private static MiniMarket market;
 	public static void main(String[] args) {
 		market=new MiniMarket();
